@@ -1,0 +1,228 @@
+body {
+  -webkit-print-color-adjust: exact;
+}
+
+.message-filler {
+    flex-grow: 1;
+}
+
+.main-content {
+    max-width: 1024px;
+    height: 100%;
+    margin: auto;
+    padding: 10px 0 10px 0;
+}
+
+.left-card {
+    width: 40%;
+    background-color: #37A4DC;
+}
+
+.right-card {
+    width: 60%;
+    background-color: #E4E4E4;
+    padding: 40px 80px 40px 60px;
+}
+
+.right-card .mdl-card {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 40px 20px 20px 20px;
+}
+
+@media print {
+  .right-card {
+    padding: 40px 20px 20px 20px;
+}
+}
+
+.right-sub-card-1 {
+    min-height: 300px;
+}
+
+.right-sub-card-2 {
+    min-height: 0;
+}
+
+.profile-image {
+    -webkit-print-color-adjust: exact;
+    flex: 1 1 auto;
+    flex-direction: column;
+    display: flex;
+    background-image: url("../img/index.jpg") !important;
+    background-size: cover !important;
+    height: 300px;
+    width: 100%;
+}
+
+.profile-image-text {
+    margin: 0 0 0 20px;
+    color: white !important;
+    text-shadow: -1px -1px 0 #424242,
+    1px -1px 0 #424242,
+    -1px 1px 0 #424242,
+    1px 1px 0 #424242;
+}
+
+.profile-image-text h2 {
+    margin-bottom: 0;
+    font-size: 38px;
+}
+
+.profile-content h4 {
+    margin: 0 auto 0 auto;
+}
+
+.profile-content {
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+
+.profile-content .mdl-card {
+    width: auto;
+    background: transparent;
+    color: white;
+    min-height: 0;
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid #2C9DD7;
+}
+
+.profile-content .mdl-card:last-of-type {
+    border-bottom: 0;
+}
+
+.mdl-slider__container,
+h4.profile-skills-title {
+    margin-bottom: 20px;
+}
+
+.profile-content .mdl-grid,
+.right-card .mdl-grid {
+    margin: 0;
+}
+
+.material-icons {
+    font-size: 30px;
+}
+
+.profile-phone-number,
+.profile-email,
+.profile-address,
+.profile-skill {
+    margin-bottom: 0;
+}
+
+.profile-skill {
+    margin-left: 26px;
+}
+
+.profile-address-3 {
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.profile-phone-number-type,
+.profile-email-type {
+    font-size: 12px;
+}
+
+.icon-cell {
+    width: 20%;
+    margin: 0;
+    font-size: 30px;
+}
+
+.text-cell {
+    width: 80%;
+    margin: 0;
+}
+
+.icon-cell-1 {
+    width: 10%;
+    margin: 0;
+    color: #6D6F6E;
+    font-size: 30px;
+}
+
+.text-cell-1 {
+    width: 90%;
+    margin: 0;
+}
+
+.mdl-slider__background-lower {
+    background-color: white !important;
+}
+
+.work-experiences-title,
+.education-title,
+.references-title {
+    font-size: 20px;
+    padding-top: 5px;
+    color: #6D6F6E;
+}
+
+.work-experience-job-title,
+.education-school-title,
+.reference-person-name,
+.work-experience-job-place,
+.education-school-place,
+.reference-person-title {
+    color: #6D6F6E;
+}
+
+.reference-person-name {
+    font-size: 16px;
+}
+
+.reference-person-title {
+    opacity: 0.7;
+}
+
+.work-experience-description,
+.education-description {
+    color: #6D6F6E;
+    font-size: 12px;
+}
+
+.work-experience-duration,
+.education-duration {
+    text-transform: uppercase;
+    color: #9BC8E8;
+}
+
+.work-experience-job,
+.work-experience-duration,
+.education-school,
+.education-duration,
+.reference-person,
+.reference-phone-number {
+    margin-bottom: 0;
+}
+
+.reference-phone-number .material-icons,
+.reference-email .material-icons {
+    font-size: 20px;
+}
+
+#reference-phone-number,
+#reference-email {
+    vertical-align: top;
+    color: #6D6F6E;
+}
+
+.work-experience,
+.education,
+.reference {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.work-experience:last-of-type,
+.education:last-of-type,
+.reference:last-of-type {
+    border-bottom: 0;
+}
+
+.website-cell {
+    margin-top: 5px;
+}
